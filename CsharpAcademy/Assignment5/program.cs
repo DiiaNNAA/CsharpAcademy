@@ -42,7 +42,7 @@ namespace CsharpAcademy.Assignment5
 
             for (int i = 0; i < length; i++)
             {
-                numbers[i] = random.Next();
+                numbers[i] = random.Next(1, 200);
             }
 
             return numbers;
